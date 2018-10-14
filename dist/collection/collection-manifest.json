@@ -1,0 +1,36 @@
+{
+  "components": [
+    {
+      "tag": "jc-swiper",
+      "dependencies": [],
+      "componentClass": "JcSwiper",
+      "componentPath": "components/swiper/swiper.js",
+      "styles": {
+        "$": {
+          "stylePaths": [
+            "components/swiper/swiper.scss"
+          ]
+        }
+      },
+      "props": [
+        {
+          "name": "loop",
+          "type": "Boolean",
+          "attr": "loop"
+        },
+        {
+          "name": "speed",
+          "type": "Number",
+          "attr": "speed"
+        }
+      ]
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.13.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

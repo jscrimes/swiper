@@ -1,0 +1,41 @@
+{
+  "name": "jc-web-components",
+  "version": "0.0.1",
+  "description": "Stencil Component Starter",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "swiper": "^4.4.1",
+    "@stencil/core": "~0.13.2",
+    "@stencil/sass": "^0.1.1",
+    "@types/jest": "23.3.5",
+    "@types/puppeteer": "1.9.0",
+    "jest": "23.5.0",
+    "jest-environment-node": "23.4.0",
+    "pixelmatch": "4.0.2",
+    "puppeteer": "1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/stencil-component-starter.git"
+  },
+  "author": "Ionic Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionic-team/stencil"
+  },
+  "homepage": "https://github.com/ionic-team/stencil"
+}
